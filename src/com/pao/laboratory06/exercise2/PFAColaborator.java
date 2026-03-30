@@ -16,7 +16,7 @@ public class PFAColaborator extends PersoanaFizica implements IOperatiiCitireScr
     @Override
     public double calculeazaVenitNetAnual() {
         double venitNetBaza = (this.salariu - cheltuieliLunare) * 12;
-        double salariuMinim = 4050.0;
+        double salariuMinim = 4050.0 * 12;
 
         double impozit = 0.10 * venitNetBaza;
 

@@ -57,6 +57,8 @@ public class Main {
                         .sum();
                 System.out.printf(Locale.US, "%s: suma = %.2f lei, număr = %d%n",
                         tip.name(), sumaNeta, listaFiltrata.size());
+            } else {
+                System.out.printf("%s: suma = nu lei, număr = null%n", tip.name());
             }
         }
     }
