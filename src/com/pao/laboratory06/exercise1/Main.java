@@ -12,7 +12,7 @@ public class Main {
         int numarAngajati = scanner.nextInt();
         Angajat[] angajati = new Angajat[numarAngajati];
         for (int i = 0; i < numarAngajati; i++) {
-            angajati[i] = Angajat.citeste(scanner);
+            angajati[i] = Angajat.citesteAngajat(scanner);
         }
         // cerinte: sorteaza in functie de optiune
         Comparator<Angajat> comparator = switch (optiune) {

@@ -3,15 +3,15 @@ package com.pao.laboratory06.exercise1;
 import java.util.Scanner;
 
 public class Angajat {
-    private String nume;
-    private double salariu;
+    protected String nume;
+    protected double salariu;
 
     public Angajat(String nume, double salariu) {
         this.nume = nume;
         this.salariu = salariu;
     }
 
-    public static Angajat citeste(Scanner s) {
+    public static Angajat citesteAngajat(Scanner s) {
         String nume = s.next();
         double salariu = s.nextDouble();
         return new Angajat(nume, salariu);
