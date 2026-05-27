@@ -7,10 +7,19 @@ public class Tranzactie implements Comparable<Tranzactie>{
     private int id;
     private double suma;
     private String tip;
+    private String ibanCont;
     private LocalDateTime data;
 
     public Tranzactie(int id, double suma, String tip){
         this.id = id;
+        this.suma = suma;
+        this.tip = tip;
+        this.data = LocalDateTime.now();
+    }
+
+    public Tranzactie(int id, String ibanCont, double suma, String tip) {
+        this.id = id;
+        this.ibanCont = ibanCont;
         this.suma = suma;
         this.tip = tip;
         this.data = LocalDateTime.now();
@@ -37,5 +46,6 @@ public class Tranzactie implements Comparable<Tranzactie>{
     public int getId() { return id; }
     public double getSuma() { return suma; }
     public String getTip() { return tip; }
+    public String getIbanCont() { return ibanCont; }
     public LocalDateTime getData() { return data; }
 }

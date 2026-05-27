@@ -1,0 +1,9 @@
+nume_actiune,timestamp,detalii
+
+TRANSFER,2026-05-27T13:32:00.1635254,from=RO111;to=RO222;amount=150.0;by=system-demo
+TRANSFER,2026-05-27T13:34:27.6692364,from=RO111;to=RO222;amount=150.0;by=system-demo
+TRANSFER,2026-05-27T13:35:38.9618752,from=RO111;to=RO222;amount=150.0;by=system-demo
+TRANSFER,2026-05-27T13:49:08.5426034,from=RO111;to=RO222;amount=150.0;by=system-demo
+TRANSFER,2026-05-27T14:27:45.4512496,from=RO111;to=RO222;amount=150.0;by=system-demo
+TRANSFER,2026-05-27T14:29:53.7562198,from=RO111;to=RO222;amount=150.0;by=system-demo
+TRANSFER,2026-05-27T14:33:46.3554275,from=RO111;to=RO222;amount=150.0;by=system-demo

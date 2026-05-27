@@ -38,4 +38,5 @@ public class Client {
 
     public String getCnp() { return cnp; }
     public String getNume() { return nume; }
+    public String getAdresa() { return adresa; }
 }
