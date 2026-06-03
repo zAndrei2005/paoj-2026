@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter;
  * Simple thread-safe AuditService that appends action,timestamp,details to resources/audit.csv
  */
 public class AuditService {
-    private static final String AUDIT_PATH = "resources/audit.csv";
+    private static final String AUDIT_PATH = "paoj-2026/resources/audit.csv";
     private static final DateTimeFormatter FMT = DateTimeFormatter.ISO_LOCAL_DATE_TIME;
 
     private AuditService() {}
